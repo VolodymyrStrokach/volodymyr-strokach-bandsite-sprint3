@@ -1,0 +1,693 @@
+.header {
+    background-color: #323232;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 80px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (min-width: 768px) {
+    .header a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (min-width: 1280px) {
+    .header a {
+      padding: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .header {
+      padding-left: 180px;
+    }
+  }
+  
+  .header__logo {
+    height: 8vh;
+    margin: auto;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Avenir Demi Bold";
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .header__logo {
+      margin-left: 24px;
+      height: 80%;
+      width: 100%;
+    }
+  }
+  
+  .nav {
+    color: #FFFFFF;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nav {
+      font-family: "Avenir Regular";
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-left: 10%;
+    }
+  }
+  
+  .nav__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Avenir Demi Bold";
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nav__links {
+      height: 100%;
+      line-height: 80px;
+    }
+  }
+  
+  .nav__link {
+    list-style-type: none;
+    width: 50%;
+    font-size: 1.1rem;
+  }
+  
+  .nav__link a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nav__link {
+      width: 100%;
+      margin-right: 30%;
+    }
+  }
+  
+  .nav__link:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .nav__link--active {
+    padding-bottom: 15px;
+    border-bottom: 4px solid #FFFFFF;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .nav__link--active {
+      padding-right: 0;
+    }
+  }
+ 
+  @media screen and (min-width: 768px) {
+    .nav__link {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .nav__link {
+      margin-right: 56px;
+      font-size: 13px;
+    }
+  }
+  
+  .hero_shows {
+      background-image: url(../assets/Images/hero-shows.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 29.5rem;
+      color: #FFFFFF;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: left;
+          -ms-flex-pack: left;
+              justify-content: left;
+      -ms-flex-line-pack: left;
+          align-content: left;
+    }
+  
+  
+  .hero__layer {
+    position: absolute;
+    background-color: #323232;
+    opacity: 0.5;
+    width: 100%;
+    height:65%;
+  }
+  
+ 
+  @media screen and (min-width: 768px) {
+    .hero {
+      height: 400px;
+    }
+  }
+  
+
+  
+  @media screen and (min-width: 1280px) {
+    .hero {
+      height: 670px;
+    }
+  }
+  
+  .hero__content {
+    font-size: 1.5rem;
+    line-height: 32px;
+    padding-left: 16px;
+    color: #FFFFFF;
+    margin: 0;
+    width: 70%;
+    z-index: 1;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .hero__content {
+      padding-left: 24px;
+      font-size: 3.75rem;
+      line-height: 70px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .hero__content {
+      font-size: 4.2rem;
+      line-height: 80px;
+      width: 50%;
+      padding-left: 180px;
+    }
+  }
+  
+  .hero {
+   
+    background-size: cover;
+    background-position: center;
+    height: 472px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  
+
+  @media screen and (min-width: 768px) {
+    .hero {
+      height: 670px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .hero__song {
+      width: 65%;
+      height: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .hero__song {
+      width: 40%;
+      height: 120px;
+    }
+  }
+  
+  .hero__content {
+    width: 90%;
+    padding-top: 30px;
+  }
+  
+ 
+  @media screen and (min-width: 768px) {
+    .hero__content {
+      padding-top: 96px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .hero__content {
+      padding-top: 160px;
+    }
+  }
+  
+ 
+  
+  @media screen and (min-width: 768px) {
+    .hero__content h2 {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .hero__text {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+  
+  .hero h1 {
+    width: 100%;
+    line-height: 60px;
+    margin-top: 10px;
+  }
+  
+
+  @media screen and (min-width: 768px) {
+    .hero h1 {
+      width: 85%;
+      font-size: 3.8rem;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .hero h1 {
+      font-size: 2.8rem;
+    }
+  }
+  
+  @font-face {
+    font-family: "Avenir Regular";
+    src: url("../assets/fonts/AvenirNextProLT/Linotype - AvenirNextLTPro-Regular.otf");
+  }
+  
+  @font-face {
+    font-family: "Avenir Demi Bold";
+    src: url("../assets/fonts/AvenirNextProLT/Linotype - AvenirNextLTPro-Demi.otf");
+  }
+  
+  @font-face {
+    font-family: "Avenir Bold";
+    src: url("../assets/fonts/AvenirNextProLT/Linotype - AvenirNextLTPro-Bold.otf");
+  }
+  
+  h1 {
+    font-family: "Avenir Bold";
+  }
+  
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 2.25rem;
+      line-height: 68px;
+    }
+  }
+  
+  h2 {
+    font-size: 0.95rem;
+    font-family: "Avenir Bold";
+    line-height: 22px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+      line-height: 32px;
+    }
+  }
+  
+  h3 {
+    font-size: 0.92rem;
+    font-family: "Avenir Demi Bold";
+  }
+  
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 1rem;
+      line-height: 24px;
+    }
+  }
+  
+  h4 {
+    font-size: 0.8125rem;
+    line-height: 18px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    h4 {
+      font-size: 0.875rem;
+      line-height: 22px;
+    }
+  }
+  
+  h5 {
+    font-size: 0.75rem;
+    line-height: 20px;
+  }
+  
+  p {
+    font-size: 0.8rem;
+    color: #323232;
+  }
+  
+  .shows {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 16px;
+    margin-right: 16px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .shows {
+      width: 100%;
+      padding-left: 24px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .shows {
+      padding-left: 180px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: auto;
+    }
+  }
+  
+  .shows__table {
+    margin-top: 30px;
+  }
+  
+  
+  
+  @media screen and (min-width: 768px) {
+    .shows__table {
+      text-align: start;
+      margin-right: 24px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .shows__table {
+      margin-left: 120px;
+      width: 65%;
+    }
+  }
+  
+  .shows__card {
+    border-bottom: 1px solid #E1E1E1;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .shows__card {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .shows__card h3 {
+      width: 25%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .shows__card p {
+      width: 25%;
+    }
+  }
+  
+  .shows__heading {
+    color: #AFAFAF;
+    font-family: "Avenir Demi Bold";
+  }
+  
+  @media screen and (min-width: 768px) {
+    .shows__heading {
+      display: none;
+    }
+  }
+  
+  .shows__title {
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .shows__title {
+      margin-top: 25px;
+    }
+  }
+  
+  .shows__button {
+    height: 50px;
+    width: 95%;
+    background-color: #323232;
+    color: #FFFFFF;
+    font-family: "Avenir Demi Bold";
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .shows__button {
+      width: 25%;
+    }
+  }
+  
+  .shows__button:hover {
+    background-color: #000000;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+
+  
+  @media screen and (min-width: 768px) {
+    .tablet__header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .tablet__header p {
+      width: 25%;
+    }
+  }
+  
+  .tablet__head {
+    color: #AFAFAF;
+    font-family: "Avenir Demi Bold";
+  }
+  
+  .footer {
+    background-color: #323232;
+    color: #FFFFFF;
+    padding-left: 16px;
+  }
+  
+ 
+  
+  @media screen and (min-width: 768px) {
+    .footer {
+      text-align: left;
+      padding-left: 24px;
+      margin-top: 24px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .footer {
+      padding-left: 180px;
+    }
+  }
+  
+  .footer__getInTouch--title {
+    padding-top: 10%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer__getInTouch--title {
+      font-size: 2rem;
+      display: inline-block;
+      padding-top: 1%;
+      width: 30%;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .footer__getInTouch--title {
+      width: 25%;
+    }
+  }
+  
+  .footer__getInTouch--icons img {
+    padding-right: 10%;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .footer__getInTouch--icons img {
+      margin-right: 32px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer__getInTouch--icons {
+      display: inline-block;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .footer__logo {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer__logo {
+      visibility: visible;
+      display: inline-block;
+      text-align: right;
+      width: 40%;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .footer__logo {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .footer .logo__footer {
+      width: 120px;
+    }
+  }
+  
+  .footer__contacts {
+    width: 90%;
+  }
+  
+  .footer__contacts a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+
+  
+  @media screen and (min-width: 768px) {
+    .footer__contacts {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      width: 90%;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1280px) {
+    .footer__contacts {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .footer__contacts {
+      width: 75%;
+    }
+  }
+  
+  .footer__copyrights p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 24px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer__copyrights p:last-child {
+      padding-left: 5px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer__copyrights {
+      margin-top: 10px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+    }
+  }
+  
+  .footer h1 {
+    margin-top: 0;
+  }
+  
+  .footer h4 {
+    font-family: "Avenir Bold";
+  }
+  
+  .footer h4,
+  .footer p {
+    margin: 0;
+    color: #FFFFFF;
+  }
+  
+ 
+  
+  @media screen and (min-width: 768px) {
+    .footer h4,
+    .footer p {
+      font-size: 15px;
+    }
+  }
+  
+  .footer .margin-bottom {
+    margin-bottom: 4vh;
+  }
+
+  .show-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.show-date,
+.show-venue,
+.show-location {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+  

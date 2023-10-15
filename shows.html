@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shows</title>
+    <link rel="stylesheet" href="./styles/bio.css">
+    <link rel="stylesheet" href="./styles/shows.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script defer src="./scripts/band-site-api.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html" class="header__nav-logo-container">
+                <img class="header__nav-image" src="./assets/Logo/Logo-bandsite.svg" alt="band logo">
+            </a>
+            <ul class="header__nav-menu">
+                <li class="header__nav-menu-item">
+                    <a class="header__nav-menu-item-link" id="active" href="./index.html">Biography</a>
+                </li>
+                <li class="header__nav-menu-item">
+                    <a class="header__nav-menu-item-link" href="./shows.html">Shows</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero_shows">
+            <div id="background"></div>
+            <div class="hero__layer"></div>
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h2>Beautiful Beasts Album</h2>
+                    <h1>Queen of Yellow x </br> For The Stings</h1>
+                </div>
+                <iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166085238&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fady-momtaz" title="Fady Momtaz" target="_blank" style="color: #cccccc; text-decoration: none;">Fady Momtaz</a> · <a href="https://soundcloud.com/fady-momtaz/jennifer-lopez-feat-pitbull-on-the-floor-lyrics-on-screen-hd" title="Jennifer Lopez Feat. Pitbull On The Floor Lyrics On Screen HD" target="_blank" style="color: #cccccc; text-decoration: none;">Jennifer Lopez Feat. Pitbull On The Floor Lyrics On Screen HD</a></div>
+            </div>
+        </section>
+
+        <section class="shows">
+            <h1 class="shows__title">Shows</h1>
+            <div class="shows__table">
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__main">
+            <h1 class="footer__title">Get In Touch</h1>
+            <div class="footer__social">
+                <a class="footer__social-link" href="https://www.instagram.com"><img src="./Icons/SVG/Icon-instagram.svg" alt="Instagram"></a>
+                <a class="footer__social-link" href="https://www.facebook.com"><img src="./Icons/SVG/Icon-facebook.svg" alt="Facebook"></a>
+                <a class="footer__social-link" href="https://www.twitter.com"><img src="./Icons/SVG/Icon-twitter.svg" alt="Twitter"></a>
+            </div>
+            <a href="./index.html"><img class="footer__logo" src="./assets/Logo/Logo-bandsite.svg" alt="Bandsite Logo"></a>
+        </div>
+        <section class="footer__contact-container">
+            <div class="footer__contact">
+                <h2 class="footer__contact-name">Cam Adams </br>The Bees Knees Management</h2>
+                <h4 class="footer__contact-location">503 Broadway Penthouse, </br> New York, NY 10012, USA</h4>
+                <a class="footer__contact-link" href="mailto:info@thebeesknees.com"><h4 class="footer__contact-link">info@thebeesknees.com</h4></a>
+            </div>
+            <div class="footer__contact">
+                <h2 class="footer__contact-name">Pearl Gregg</br>Limitless Artist Group</h2>
+                <h4 class="footer__contact-location">Booking Agent for</br>US / South America / Japan</h4>
+                <a class="footer__contact-link" href="mailto:pearl.gregg@limitlessag.com"><h4 class="footer__contact-link">pearl.gregg@limitlessag.com</h4></a>
+            </div>
+            <div class="footer__contact">
+                <h2 class="footer__contact-name">Carson Whyte </br>ARCH Entertainment </h2>
+                <h4 class="footer__contact-location">Booking Agent for</br>UK / EU / AU</h4>
+                <a class="footer__contact-link" href="mailto:cwhyte@archentertainment.com"><h4 class="footer__contact-link">cwhyte@archentertainment.com</h4></a>
+            </div>
+        </section>
+        <h4 class="footer__copyright">Copyright The Bees Knees © 2021 All Rights Reserved</h4>
+    </footer>
+<script src="../scripts/build-shows-page.js"></script>
+</body>
+</html>
